@@ -1,24 +1,25 @@
-:root{
+:root {
     /* Variables */
     --white: rgba(247,247,247,1);
     --offwhite: rgba(236,236,236,1);
     --ltgrey: rgba(193,193,193,1);
     --dkgrey: rgba(100,100,100,1);
     --accent: rgb(159,37,37, 1);
-    --accent2: rgb(52, 113, 206);
+    --accent2: rgb(138, 179, 240);
 }
+
 * {
-    margin: 0;
-    padding: 0;
-    background-color: var(--offwhite);
+    margin: auto;
+    padding: auto;
 }
 
 header,
 footer {
     width: 100%;
-    height: 140px;
-    background-color: var(--accent);
+    height: 100%;
+    background-color: var(--accent2);
     color: var(--dkgrey);
+    padding: 10px 0;
 }
 
 h1,
@@ -26,6 +27,7 @@ h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--accent);
+    padding: 20px auto;
 }
 
 img {
@@ -54,3 +56,7 @@ p {
     border: 5px solid var(--ltgrey);
     box-shadow: 5px 10px var(--accent);
   }
+
+i {
+    color: var(--accent);
+}
